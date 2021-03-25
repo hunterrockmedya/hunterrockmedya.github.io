@@ -1,1 +1,1 @@
-# hunterrockmedya.github.io
+# HunterRockMedya.github.io

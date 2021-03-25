@@ -1,0 +1,82 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #003c5d;
+  background-color: #ffffff;
+}
+
+a {
+  color: #9acd91;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fullBlock{
+  width:100vw;
+  height:100vh;
+  color:#fff;
+}
+#one{
+  background-color: #2196F3;
+}
+.fullBlock#home{
+    //background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: radial-gradient( #1B2735, #090A0F);
+    display: table;
+}
+#home .tMid{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#home .myDp{
+    max-width: 100px;
+}
+#home .myName{
+    font-size: 2.5em;
+}
+.myBio{
+    font-size: 14px;
+    color: #555577;
+}
+.myBio .myInfo{
+    display: inline;
+}
+.myBio .myInfo:hover{
+    color: #577;
+}
+.myLinks i{
+    color: #999;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.myLinks i:hover{
+    color: #9acd91;
+    transform: scale(1.5);
+}
+.myLinks li{
+    display: inline;
+    padding: 5px;
+}
+.myLinks li.line{
+    border-left: 1px solid #575757;
+    margin-left: 5px;
+    margin-right: -5px;
+}
